@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\sergey_insp\Desktop\d3d11_hook\x64\Debug\d3d11_hook.dll</FullPath>
+      <FullPath>C:\Users\sergey_insp\Desktop\d3d11_hook_x64\x64\Debug\d3d11_hook.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

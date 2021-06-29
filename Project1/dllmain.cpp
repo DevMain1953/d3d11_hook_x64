@@ -13,7 +13,7 @@ HRESULT __stdcall hookD3D11Present(IDXGISwapChain* pSwapChain, UINT SyncInterval
 			pSwapChain->GetDevice(__uuidof(pDeviceInGame), (void**)&pDeviceInGame);
 		}
 
-		//Describes rasterizer state
+		//Describes modified rasterizer state
 		ZeroMemory(&nrasterizer_desc, sizeof(nrasterizer_desc));
 		nrasterizer_desc.FillMode = D3D11_FILL_WIREFRAME;
 		nrasterizer_desc.CullMode = D3D11_CULL_NONE;
@@ -29,7 +29,7 @@ HRESULT __stdcall hookD3D11Present(IDXGISwapChain* pSwapChain, UINT SyncInterval
 		//Creates a rasterizer state object that tells the rasterizer stage how to behave
 		pDeviceInGame->CreateRasterizerState(&nrasterizer_desc, &rasterizerStateModified);
 		
-		//Describes rasterizer state
+		//Describes normal rasterizer state
 		ZeroMemory(&nrasterizer_desc, sizeof(nrasterizer_desc));
 		nrasterizer_desc.FillMode = D3D11_FILL_SOLID;
 		nrasterizer_desc.CullMode = D3D11_CULL_NONE;

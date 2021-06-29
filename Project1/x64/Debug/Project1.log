@@ -1,8 +1,8 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   dllmain.cpp
-C:\Users\sergey_insp\Desktop\d3d11_hook\Project1\dllmain.cpp(21,32): warning C4244: '=': conversion from 'float' to 'INT', possible loss of data
-C:\Users\sergey_insp\Desktop\d3d11_hook\Project1\dllmain.cpp(37,32): warning C4244: '=': conversion from 'float' to 'INT', possible loss of data
-detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'C:\Users\sergey_insp\Desktop\d3d11_hook\x64\Debug\detours.pdb'; linking object as if no debug info
-detours.lib(modules.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(modules.obj)' or at 'C:\Users\sergey_insp\Desktop\d3d11_hook\x64\Debug\detours.pdb'; linking object as if no debug info
-detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'C:\Users\sergey_insp\Desktop\d3d11_hook\x64\Debug\detours.pdb'; linking object as if no debug info
-  Project1.vcxproj -> C:\Users\sergey_insp\Desktop\d3d11_hook\x64\Debug\d3d11_hook.dll
+C:\Users\sergey_insp\Desktop\d3d11_hook_x64\Project1\dllmain.cpp(21,32): warning C4244: '=': conversion from 'float' to 'INT', possible loss of data
+C:\Users\sergey_insp\Desktop\d3d11_hook_x64\Project1\dllmain.cpp(37,32): warning C4244: '=': conversion from 'float' to 'INT', possible loss of data
+detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'C:\Users\sergey_insp\Desktop\d3d11_hook_x64\x64\Debug\detours.pdb'; linking object as if no debug info
+detours.lib(modules.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(modules.obj)' or at 'C:\Users\sergey_insp\Desktop\d3d11_hook_x64\x64\Debug\detours.pdb'; linking object as if no debug info
+detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'C:\Users\sergey_insp\Desktop\d3d11_hook_x64\x64\Debug\detours.pdb'; linking object as if no debug info
+  Project1.vcxproj -> C:\Users\sergey_insp\Desktop\d3d11_hook_x64\x64\Debug\d3d11_hook.dll
