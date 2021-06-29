@@ -1,5 +1,6 @@
 #include "header.h"
 
+//Hook function that will be executed instead of original Present
 HRESULT __stdcall hookD3D11Present(IDXGISwapChain* pSwapChain, UINT SyncInterval, UINT Flags)
 {
 	if (firstTime)
@@ -79,6 +80,7 @@ void __stdcall hookD3D11Draw(ID3D11DeviceContext* pContext, UINT VertexCount, UI
 	return oD3D11Draw(pContext, VertexCount, StartVertexLocation);
 }
 
+//Initializes hooks
 DWORD __stdcall InitHooks(LPVOID)
 {
 	//Creates window
